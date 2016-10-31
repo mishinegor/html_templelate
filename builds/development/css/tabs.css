@@ -1,0 +1,68 @@
+/* Tab navigation */
+
+ul.tabNav {
+    margin: 0 0 2% 30%;
+}
+
+
+div.tab_content .rightCol h5{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+div.tab_content .rightCol article p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+div.tab_content .rightCol article p.price {
+    margin-top: 2em;
+    line-height: 2;
+    font-weight: bold;
+}
+
+ul.tabContent-innerTabs {position: relative;}
+
+/*Corusel Nav*/
+.bx-wrapper .bx-controls-direction a {}
+
+ul.tabs, ul.tabs_child {
+            list-style: none;
+            height: 40px; /*--Set height of tabs--*/
+            width: 70%;
+        }
+        ul.tabs li, ul.tabs_child li  {
+            float: left;
+            overflow: hidden;
+            
+            border: 2px solid #e0614e;
+            margin-left: 2em;
+            cursor:pointer;
+	        display:block;
+	        float:left;
+	        padding:10px 15px;
+        }
+        ul.tabs li a, ul.tabs_child li a {
+            text-decoration: none;
+            color: #484f51;
+            display: block;
+            font-size: 18px;
+            padding: 0 18px;
+            outline: none;
+            text-transform:uppercase;
+        }
+        ul.tabs li a:hover {color:#fff;}
+        ul.tabs li.active a {color:#fff;}
+        html ul.tabs li.active, html ul.tabs li:hover, html ul.tabs_child li.active, html ul.tabs_child li:hover  {background: #e0614e; color: #fff;}
+
+        .tab_container, .tab_container_child {
+            overflow: hidden;        }
+
+ul.inner {
+    position: absolute;
+    left: 570px;
+    top: 340px;
+}
+
+div.tab_content {position: relative;}
