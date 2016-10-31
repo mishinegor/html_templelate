@@ -14,9 +14,9 @@ gulp.task('coffee', function() {
     
 });
 
-gulp.task('js', function() {
+gulp.task('js', function() { //склеивает все js скрипты
     gulp.src(jsSources);
-        .pipe(concat('script.js'))
+        .pipe(concat('script.js')),
         .pipe(gulp.dest('builds/development/js'))
     
 });
