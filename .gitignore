@@ -27,3 +27,7 @@ node_modules
 .tmp
 .sass-cache
 builds/**/images/*
+/HTML5Application/nbproject/private/
+/nbproject/private/
+/HTML5Application1/nbproject/private/
+/ded_moroz/nbproject/private/

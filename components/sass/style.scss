@@ -1,14 +1,27 @@
-//Compass imports
 @import "compass";
-@import "compass/css3/box-shadow";
+@import "compass/reset";
+@import "susy"; 
 
-//Core partials (Основные компоненты)
 @import "variebles";
 @import "mixins";
 @import "base";
 @import "modules";
+@import "layout";
 
-//JS partials
 
-@import "pixgrid";
-@import "rclick";
+// fonts 
+
+@font-face { 
+    font-family: cuprum; 
+    src: url(../fonts/cuprum-regular.ttf); 
+   }
+   
+   @font-face { 
+    font-family: opensans; 
+    src: url(../fonts/opensans-regular.ttf); 
+   }
+   
+   @font-face {
+    font-family: bebasNeue; 
+    src: url(../fonts/bebas_neue_regular.ttf); 
+   }

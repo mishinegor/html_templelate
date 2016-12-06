@@ -1,0 +1,52 @@
+/*
+    Created on : 17.11.2016, 23:02:19
+    Author     : Egor
+*/
+
+   
+body {
+	font-size: 14px;
+	}
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        h1{
+
+          }
+
+
+    h1, h2, h3, h4 {text-transform: uppercase; font-weight: bold; font-family: $h_font;}
+a {
+	color:$a_color;
+	
+	}
+	
+a:hover {
+	color:$ahover_color;
+	text-decoration:none;
+	
+	}
+
+a, button, input{@include transition-duration(.5s);}
+	
+
+
+// FORM STYLE
+INPUT[type="text"] {
+  -webkit-appearance: none; // for ios
+
+}
+
+INPUT[type='submit'] {
+  -webkit-appearance: none; // for ios
+
+  input:focus {
+    ouutline:none;
+  }
+
+}
+
+

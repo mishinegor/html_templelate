@@ -1,0 +1,143 @@
+/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.11.2016, 23:06:32
+    Author     : Egor
+*/
+/*
+    Created on : 17.11.2016, 23:03:59
+    Author     : Egor
+*/
+/*
+    Created on : 17.11.2016, 23:02:19
+    Author     : Egor
+*/
+/* line 7, ../components/sass/_base.scss */
+body {
+  font-size: 14px; }
+
+/* line 11, ../components/sass/_base.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 21, ../components/sass/_base.scss */
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: bebasNeue, Helvetica, Arial, sans-serif; }
+
+/* line 22, ../components/sass/_base.scss */
+a {
+  color: #b31b16; }
+
+/* line 27, ../components/sass/_base.scss */
+a:hover {
+  color: #fa352e;
+  text-decoration: none; }
+
+/* line 33, ../components/sass/_base.scss */
+a, button, input {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
+
+/* line 38, ../components/sass/_base.scss */
+INPUT[type="text"] {
+  -webkit-appearance: none; }
+
+/* line 43, ../components/sass/_base.scss */
+INPUT[type='submit'] {
+  -webkit-appearance: none; }
+  /* line 46, ../components/sass/_base.scss */
+  INPUT[type='submit'] input:focus {
+    ouutline: none; }
+
+/*
+    Created on : 17.11.2016, 23:06:12
+    Author     : Egor
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.11.2016, 23:02:51
+    Author     : Egor
+*/
+/* line 11, ../components/sass/_layout.scss */
+div.conteiner {
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 90%; }
+
+@font-face {
+  font-family: cuprum;
+  src: url(../fonts/cuprum-regular.ttf); }
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/opensans-regular.ttf); }
+@font-face {
+  font-family: bebasNeue;
+  src: url(../fonts/bebas_neue_regular.ttf); }

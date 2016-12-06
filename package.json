@@ -1,22 +1,23 @@
 {
   "name": "html",
   "version": "1.0.0",
-  "description": "ipp.kz site",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0"
   },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": ""
   },
-  "author": "Egor Mishin",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-browserify": "^0.5.1",
-    "gulp-coffee": "^2.3.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-util": "^3.0.7"
-  }
+  "author": "",
+  "license": "ISC"
 }
